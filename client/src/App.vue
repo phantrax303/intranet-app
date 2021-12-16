@@ -1,17 +1,34 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <NavigationBar></NavigationBar>
+    <div>
+      <div>
+        <Birthdays></Birthdays>
+      </div>
+      <Journal></Journal>
+      <div>
+        <Phones></Phones>
+        <ExternalLinks></ExternalLinks>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavigationBar from './components/NavigationBar.vue';
+import ExternalLinks from './components/ExternalLinks.vue';
+import Birthdays from './components/Birthdays.vue';
+import Journal from './components/Journal.vue';
+import Phones from './components/Phones.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavigationBar,
+    ExternalLinks,
+    Birthdays,
+    Journal,
+    Phones,
   }
 }
 </script>
