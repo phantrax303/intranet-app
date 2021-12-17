@@ -1,5 +1,10 @@
 <template>
-    <p>Nav Bar</p>
+    <nav class="navbar">
+        <img src="../assets/logo_hmae.png" >
+        <div>
+            
+        </div>
+    </nav>
 </template>
 
 <script>
@@ -10,5 +15,8 @@ export default {
 
 
 <style>
+nav{
+    width:100%;
+}
 
 </style>>
